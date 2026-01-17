@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1a1a2e">
+    <meta name="description" content="HSC English 2nd Paper Master - Complete preparation guide">
+    <title>HSC English 2nd Paper Master</title>
+    
+    <!-- PWA Links -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="logo">HSC English Master</div>
+    </header>
+
+    <!-- Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar" id="sidebar">
+        <div class="menu-item active" data-page="home">
+            <span class="menu-icon">🏠</span>
+            <span>Home</span>
+        </div>
+        <div class="menu-item" data-page="grammar">
+            <span class="menu-icon">📚</span>
+            <span>Grammar Rules</span>
+        </div>
+        <div class="menu-item" data-page="writing">
+            <span class="menu-icon">✍️</span>
+            <span>Writing Skills</span>
+        </div>
+        <div class="menu-item" data-page="composition">
+            <span class="menu-icon">📝</span>
+            <span>Composition</span>
+        </div>
+        <div class="menu-item" data-page="practice">
+            <span class="menu-icon">🎯</span>
+            <span>Practice Tests</span>
+        </div>
+        <div class="menu-item" data-page="vocabulary">
+            <span class="menu-icon">📖</span>
+            <span>Vocabulary</span>
+        </div>
+        <div class="menu-item" data-page="about">
+            <span class="menu-icon">ℹ️</span>
+            <span>About</span>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main id="mainContent">
+        <div class="content-card">
+            <h1>Welcome to HSC English 2nd Paper Master</h1>
+            <p>আপনার HSC English 2nd Paper পরীক্ষার সম্পূর্ণ প্রস্তুতির জন্য এই অ্যাপটি তৈরি করা হয়েছে। মেনু থেকে বিভিন্ন বিষয় নির্বাচন করুন।</p>
+        </div>
+
+        <div class="topic-grid">
+            <div class="topic-card" data-topic="parts-of-speech">
+                <h3>Parts of Speech</h3>
+                <p>Noun, Pronoun, Verb, Adjective সহ সকল Parts of Speech শিখুন</p>
+            </div>
+            <div class="topic-card" data-topic="tenses">
+                <h3>Tenses</h3>
+                <p>সকল ১২টি Tense উদাহরণ সহ আয়ত্ত করুন</p>
+            </div>
+            <div class="topic-card" data-topic="sentence">
+                <h3>Sentence Structure</h3>
+                <p>Simple, Compound এবং Complex Sentence বুঝুন</p>
+            </div>
+            <div class="topic-card" data-topic="article">
+                <h3>Articles</h3>
+                <p>A, An, The এর সঠিক ব্যবহার শিখুন</p>
+            </div>
+            <div class="topic-card" data-topic="preposition">
+                <h3>Prepositions</h3>
+                <p>সকল Preposition এর নিয়ম ও ব্যবহার</p>
+            </div>
+            <div class="topic-card" data-topic="essay">
+                <h3>Essay Writing</h3>
+                <p>বিভিন্ন ধরনের Essay লেখার কৌশল</p>
+            </div>
+            <div class="topic-card" data-topic="letter">
+                <h3>Letter Writing</h3>
+                <p>Formal ও Informal Letter এর Format</p>
+            </div>
+            <div class="topic-card" data-topic="application">
+                <h3>Application</h3>
+                <p>Job Application ও অন্যান্য Application</p>
+            </div>
+            <div class="topic-card" data-topic="paragraph">
+                <h3>Paragraph</h3>
+                <p>গুরুত্বপূর্ণ Paragraph লেখার নিয়ম</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Install Button -->
+    <button class="install-btn" id="installBtn">
+        <span>📱</span> Install App
+    </button>
+
+    <!-- Exit Modal -->
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="exit-modal" id="exitModal">
+        <h2>অ্যাপ থেকে বের হবেন?</h2>
+        <p>আপনি কি নিশ্চিত যে আপনি অ্যাপ বন্ধ করতে চান?</p>
+        <div class="modal-buttons">
+            <button class="modal-btn btn-cancel" id="cancelExit">বাতিল</button>
+            <button class="modal-btn btn-exit" id="confirmExit">বের হন</button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/script.js"></script>
+</body>
+  </html>
